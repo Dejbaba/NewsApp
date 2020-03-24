@@ -1,0 +1,180 @@
+name: news
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  http: ^0.12.0+2
+  scoped_model: ^1.0.1
+  get_it: ^1.0.3+2
+  test: ^1.6.3
+  mockito: ^4.1.0
+  flare_flutter: ^1.5.5
+  json_annotation: ^2.4.0
+  shared_preferences: ^0.5.3+4
+  intl: ^0.16.0
+  connectivity: ^0.4.5+2
+  provider:
+  flutter_swiper: ^1.1.6
+  webview_flutter: ^0.1.1
+  flushbar: ^1.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^1.0.0
+  json_serializable: ^3.0.0
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+
+    - assets/world.jpg
+    - assets/NGN.png
+    - assets/loading.gif
+    - assets/Nigeria.gif
+    - assets/globe.gif
+    - assets/anim/nointernet.flr
+    - assets/anim/empty_state.flr
+
+    - assets/images/abc_news.jpg
+    - assets/images/abc_news_au.jpg
+    - assets/images/al_jazeera_english.jpg
+    - assets/images/ars_technica.jpg
+    - assets/images/associated_press.jpg
+    - assets/images/australian_financial_review.jpg
+    - assets/images/axios.jpg
+    - assets/images/bbc_news.jpg
+    - assets/images/bbc_sport.jpg
+    - assets/images/bleacher_report.jpg
+    - assets/images/bloomberg.jpg
+    - assets/images/breitbart_news.jpg
+    - assets/images/business_insider.jpg
+    - assets/images/buzzfeed.jpg
+    - assets/images/cbc_news.jpg
+    - assets/images/cbs_news.jpg
+    - assets/images/cnbc.jpg
+    - assets/images/cnn.jpg
+    - assets/images/crypto_coins_news.jpg
+    - assets/images/engadget.jpg
+    - assets/images/entertainment_weekly.jpg
+    - assets/images/espn.jpg
+    - assets/images/espn_cric_info.jpg
+    - assets/images/financial_post.jpg
+    - assets/images/football_italia.jpg
+    - assets/images/fortune.jpg
+    - assets/images/four_four_two.jpg
+    - assets/images/fox_news.jpg
+    - assets/images/fox_sports.jpg
+    - assets/images/google_news.jpg
+    - assets/images/hacker_news.jpg
+    - assets/images/ign.jpg
+    - assets/images/independent.jpg
+    - assets/images/mashable.jpg
+    - assets/images/medical_news_today.jpg
+    - assets/images/msnbc.jpg
+    - assets/images/mtv_news.jpg
+    - assets/images/national_geographic.jpg
+    - assets/images/national_review.jpg
+    - assets/images/nbc_news.jpg
+    - assets/images/new_scientist.jpg
+    - assets/images/new_york_magazine.jpg
+    - assets/images/news_com_au.jpg
+    - assets/images/news24.jpg
+    - assets/images/newsweek.jpg
+    - assets/images/next_big_future.jpg
+    - assets/images/nfl_news.jpg
+    - assets/images/nhl_news.jpg
+    - assets/images/politico.jpg
+    - assets/images/polygon.jpg
+    - assets/images/recode.jpg
+    - assets/images/reddit_r_all.jpg
+    - assets/images/reuters.jpg
+    - assets/images/rte.jpg
+    - assets/images/talksport.jpg
+    - assets/images/techcrunch.jpg
+    - assets/images/techradar.jpg
+    - assets/images/the_american_conservative.jpg
+    - assets/images/the_globe_and_mail.jpg
+    - assets/images/the_hill.jpg
+    - assets/images/the_hindu.jpg
+    - assets/images/the_huffington_post.jpg
+    - assets/images/the_irish_times.jpg
+    - assets/images/the_jerusalem_post.jpg
+    - assets/images/the_lad_bible.jpg
+    - assets/images/the_next_web.jpg
+    - assets/images/the_sport_bible.jpg
+    - assets/images/the_times_of_india.jpg
+    - assets/images/the_verge.jpg
+    - assets/images/the_wall_street_journal.jpg
+    - assets/images/the_washington_post.jpg
+    - assets/images/the_washington_times.jpg
+    - assets/images/time.jpg
+    - assets/images/usa_today.jpg
+    - assets/images/vice_news.jpg
+    - assets/images/wired.jpg
+
+
+
+
+
+
+
+  #  - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
